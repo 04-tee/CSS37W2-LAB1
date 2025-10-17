@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Project | My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #34495e;
+        }
+        hr {
+            border: 0;
+            height: 2px;
+            background: #3498db;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #34495e;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #34495e;
+            color: white;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Team Project Proposal</h1>
+    </header>
+    
+    <div class="container">
+        <h2>Project Title: Smart Campus Navigation System</h2>
+        
+        <hr>
+        
+        <h2>Project Overview</h2>
+        <p>The Smart Campus Navigation System is a web and mobile application designed to help students, 
+        faculty, and visitors navigate university campuses more efficiently. The system will provide 
+        real-time directions, event information, and location-based services.</p>
+        
+        <hr>
+        
+        <h2>Key Features</h2>
+        <ul>
+            <li>Interactive campus maps with building locations</li>
+            <li>Indoor navigation for large buildings</li>
+            <li>Real-time class schedule integration</li>
+            <li>Campus event notifications</li>
+            <li>Accessibility routes for differently-abled individuals</li>
+            <li>Emergency alert system</li>
+        </ul>
+        
+        <hr>
+        
+        <h2>Technology Stack</h2>
+        <ol>
+            <li>Frontend: React.js for web, React Native for mobile</li>
+            <li>Backend: Node.js with Express</li>
+            <li>Database: MongoDB</li>
+            <li>Mapping: Google Maps API</li>
+            <li>Authentication: JWT</li>
+            <li>Hosting: AWS or Azure</li>
+        </ol>
+        
+        <hr>
+        
+        <h2>Team Members</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Student Number</th>
+                <th>Role</th>
+                <th>Responsibilities</th>
+            </tr>
+            <tr>
+                <td>John Smith</td>
+                <td>212123234</td>
+                <td>Project Manager</td>
+                <td>Overall project coordination, client communication</td>
+            </tr>
+            <tr>
+                <td>Sarah Johnson</td>
+                <td>212123235</td>
+                <td>Frontend Developer</td>
+                <td>UI/UX design, React development</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>212123236</td>
+                <td>Backend Developer</td>
+                <td>Server-side logic, database design</td>
+            </tr>
+            <tr>
+                <td>Emily Davis</td>
+                <td>212123237</td>
+                <td>Mobile Developer</td>
+                <td>React Native app development</td>
+            </tr>
+            <tr>
+                <td>David Wilson</td>
+                <td>212123238</td>
+                <td>QA Tester</td>
+                <td>Testing, bug tracking, quality assurance</td>
+            </tr>
+        </table>
+        
+        <hr>
+        
+        <h2>Project Timeline</h2>
+        <ul>
+            <li><strong>Week 1-2:</strong> Requirements gathering and planning</li>
+            <li><strong>Week 3-5:</strong> UI/UX design and prototyping</li>
+            <li><strong>Week 6-10:</strong> Backend development</li>
+            <li><strong>Week 11-14:</strong> Frontend and mobile development</li>
+            <li><strong>Week 15-16:</strong> Testing and deployment</li>
+        </ul>
+        
+        <a href="212123234.html" class="back-link">← Back to About Me</a>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Smart Campus Navigation System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
